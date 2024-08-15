@@ -8,4 +8,109 @@
     --grey: #DFE2E7;
     --purple: #6261D8;
     --white: #ffffff;
+    --fwbold: 700;
+    --fwxtrabold: 800;
+    --fwsemibold: 600;
+    --fwmedium: 500;
+    --fwregular: 400;
+    --fwlight: 300;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: var(--bluesoft);
+}
+
+.big-header {
+    font-weight: var(--fwxtrabold);
+    color: var(--navy);
+    font-size: 48px;
+    margin: 0;
+}
+
+.medium-header {
+    font-weight: var(--fwbold);
+    color: var(--navy);
+    font-size: 28px;
+    margin: 0;
+}
+
+.small-header  {
+    font-weight: var(--fwbold);
+    color: var(--navy);
+    font-size: 22px;
+    margin: 0;
+}
+
+.primary-copy {
+    font-weight: var(--fwregular);
+    color: var(--darkgrey1);
+    font-size: 16px;
+    margin: 0;
+}
+
+.btn-primary{
+    padding: 12px 20px 12px 20px;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: var(--fwsemibold);
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn-primary:hover{
+    padding: 12px 20px 12px 20px;
+    background: var(--navy);
+    color: var(--white);
+}
+
+.btn-secondary{
+    padding: 12px 20px 12px 20px;
+    background: var(--grey);
+    color: var(--navy);
+    font-size: 16px;
+    font-weight: var(--fwmedium);
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn-secondary:hover {
+    padding: 12px 20px 12px 20px;
+    background: var(--navy);
+    color: var(--white) !important;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: var(--blue);
+    transition: all o.3s ease;
+    font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item a {
+    color: var(--navy);
+    transition: all o.3s ease;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: var(--fwregular);
+}
+
+.navbar-brand {
+    font-weight: var(--fwbold);
+    color: var(--navy);
+    font-size: 28px;
+}
+
+.cashier-navbar {
+    padding: 30px;
+    background: var(--white);
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
 }
