@@ -123,7 +123,13 @@ body{
     margin-bottom: 20px;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
 
+.mb-30 {
+    margin-bottom: 30px;
+}
 
 .big-header {
     font-size: var(--fwxtrabold);
