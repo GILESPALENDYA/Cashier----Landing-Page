@@ -120,10 +120,23 @@ body{
     background-color: var(--purplesoft);
     font-size: 14px;
     font-weight: var(--fwsemibold);
+    margin-bottom: 20px;
 }
 
-.col-lg-5 h1 {
-    font-weight: var(--fwxtrabold);
+
+
+.big-header {
+    font-size: var(--fwxtrabold);
+    color: var(--navy); 
     font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 10px;
 }
 
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
