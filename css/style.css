@@ -114,3 +114,8 @@ body{
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
 }
+
+.badge {
+    color: var(--navy);
+    background-color: var(--purplesoft);
+}
