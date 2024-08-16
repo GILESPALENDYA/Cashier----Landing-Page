@@ -116,6 +116,14 @@ body{
 }
 
 .badge {
-    color: var(--navy);
+    color: var(--navy) !important;
     background-color: var(--purplesoft);
+    font-size: 14px;
+    font-weight: var(--fwsemibold);
 }
+
+.col-lg-5 h1 {
+    font-weight: var(--fwxtrabold);
+    font-size: 48px;
+}
+
