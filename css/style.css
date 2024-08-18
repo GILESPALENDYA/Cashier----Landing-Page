@@ -81,8 +81,18 @@ body {
     height: 100px;
 }
 
-.features .features-wrapper h3 {
+.features .features-wrapper .h3 {
     padding-top: 16px;
+}
+
+.features-wrapper:hover .big-feature-card:not(:hover) {
+    filter: blur(3px);
+    transition: 0.3s;
+}
+
+.features-wrapper:hover .small-feature-card:not(:hover) {
+    filter: blur(3px);
+    transition: 0.3s;
 }
 
 .text-button {
